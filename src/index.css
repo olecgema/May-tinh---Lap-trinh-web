@@ -1,0 +1,45 @@
+*{
+  margin:0px;
+  padding:0px;
+  border-radius: 0px;
+  box-sizing: border-box;
+  font-size: 110%;
+}
+
+#root{
+  text-align:center;
+}
+
+.mainCalc{
+  margin:0px;
+  padding:0px;
+  border-radius: 0px;
+  box-sizing: border-box;
+}
+.screen-row input{
+  width: 300px;
+  background:gray;
+  border: 0px;
+  color: #000000;
+  padding: 10px;
+  text-align: right;
+}
+input[type="button"]{
+  width: 100px;
+  background: #46c728;
+  border: 1px solid #222;
+  padding: 10px 20px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input[type="button"]:active{
+  background: #ccc;
+}
+
+.btnaction {
+  background-color: #ffcc0e !important;
+}
